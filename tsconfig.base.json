@@ -1,0 +1,25 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@personal-blogs/ui-cms": ["libs/ui-cms/src/index.ts"],
+      "@personal-blogs/ui-cms/server": ["libs/ui-cms/src/server.ts"],
+      "@personal-blogs/ui-web": ["libs/ui-web/src/index.ts"],
+      "@personal-blogs/ui-web/server": ["libs/ui-web/src/server.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

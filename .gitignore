@@ -7,6 +7,15 @@ tmp
 
 # dependencies
 node_modules
+/.pnp
+.pnp.js
+.yarn
+.pnp
+.pnp.js
+yarn.lock
+package-lock.json
+yarn.lock
+/.vscode
 
 # IDEs and editors
 /.idea
@@ -39,3 +48,6 @@ testem.log
 Thumbs.db
 
 .nx/cache
+
+# Next.js
+.next
